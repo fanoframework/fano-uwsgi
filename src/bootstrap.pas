@@ -29,7 +29,8 @@ uses
     (*! -------------------------------
      *   controllers factory
      *----------------------------------- *)
-    {---- put your controller factory here ---};
+    {---- put your controller factory here ---},
+    HomeControllerFactory;
 
 
     procedure TBootstrapApp.buildDependencies(const container : IDependencyContainer);

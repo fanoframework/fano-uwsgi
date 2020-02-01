@@ -36,7 +36,7 @@ begin
         TUwsgiAppServiceProvider.create(
             TServerAppServiceProvider.create(
                 TAppServiceProvider.create(),
-                TInetSocketSvr.create(host, port)
+                (TInetSvrFactory.create(host, port) as ISocketSvrFactory).build()
             )
         ),
         TAppRoutes.create()

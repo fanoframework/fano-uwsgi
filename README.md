@@ -21,7 +21,7 @@ Make sure all requirements above are met. Run
 
 ```
 $ git clone https://github.com:fanofamework/fano-uwsgi.git --recursive
-$ cd fano-scgi
+$ cd fano-uwsgi
 $ ./tools/config.setup.sh
 $ ./build.sh
 $ sudo fanocli --deploy-uwsgi=hello.fano

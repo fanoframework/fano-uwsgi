@@ -125,9 +125,10 @@ Setup a virtual host. Please consult documentation of web server you use.
 
 #### Apache
 
-You need to have `mod_proxy_uwsgi` installed and loaded. This module is Apache's built-in module, so it is very likely that you will have it with your Apache installation. You just need to make sure it is loaded. For example, on Debian,
+You need to have `mod_proxy_uwsgi` installed and loaded. This module is Apache's built-in module. For example, on Debian,
 
 ```
+$ sudo apt install libapache2-mod-proxy-uwsgi
 $ sudo a2enmod proxy_uwsgi
 $ sudo systemctl restart apache2
 ```

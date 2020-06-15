@@ -111,7 +111,7 @@ environment variable. By default is `app.cgi` filename.
 
 ## Run
 
-Run example Fano SCGI application
+Run example Fano uwsgi application
 
 ```
 $ ./bin/app.cgi
@@ -121,7 +121,7 @@ By default it will listen on `127.0.0.1:20477`.
 
 ### Run with a webserver
 
-Setup a virtual host. Please consult documentation of web server you use.
+Setup a virtual host. Please consult documentation of web server you use. You can skip this section if you use Fano CLI to setup virtual host. 
 
 #### Apache
 

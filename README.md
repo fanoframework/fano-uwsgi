@@ -10,7 +10,7 @@ command line tools to help scaffolding web application using Fano Framework.
 
 - Linux or FreeBSD
 - [Free Pascal](https://www.freepascal.org/) >= 3.0
-- Web Server ([Apache with mod_proxy_uwsgi](https://httpd.apache.org/docs/2.4/mod/mod_proxy_uwsgi.html), nginx)
+- Web Server ([Apache with mod_proxy_uwsgi](https://httpd.apache.org/docs/current/mod/mod_proxy_uwsgi.html), nginx)
 - [Fano CLI](https://github.com/fanoframework/fano-cli)
 - Administrative privilege for virtual host setup
 
